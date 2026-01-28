@@ -1,0 +1,105 @@
+.cards{
+    padding:20px;
+    background-color:darkcyan;
+    width:200px;
+    margin-top: 30px;
+    border-radius: 30px;
+    align-content: center;
+}
+.search-box{
+    padding:10x;
+    margin-bottom:20px;
+}
+.search-button{
+    margin-bottom: 20px;
+}
+.cities{
+    display:flex;
+    justify-content: space-between;
+}
+.cities span{
+    background-color: gray;
+    border-radius: 20px;
+}
+.cards input{
+    width:90%;
+    height: 20px;
+    border-radius: 5px;
+}
+.cards button{
+     width:90%;
+     height:25px;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+}
+.submitwr{
+    width:300px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.select{
+    width:90%;
+    height: 30px;
+    border-radius: 5px;
+}
+.locn input{
+    width: 86%;
+    height: 25px;
+    border-radius: 5px;
+}
+textarea{
+    width: 86%;
+    height: 40px;
+    border-radius: 5px;
+}
+.submitwr button{
+    width:88%;
+    height:25px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    
+}
+.reportis{
+    width:350px;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.reportis input{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+}
+.reportis select{
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+}
+.reportis textarea{
+    width: 90%;
+    height: 50px;
+}
+.email{
+    display: flex;
+    gap:50px
+}
+.sms{
+    display: flex;
+    gap:50px
+}
+.dfn{
+    display: flex;
+    gap:6px
+}
+.reportis button{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    background-color:blue;
+    color: white;
+}
