@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Forms</title>
+</head>
+<body> 
+        <div class="submitwr">
+        <h2>Submit Weather Report</h2>
+        <form action="submit_weather.php" method="POST">
+            <label>Current_Weather<sup>*</sup></label> <br><br>
+            <select class="select" name="current_weather" required>
+                <option value="sunny">🌞 Sunny</option>
+                <option value="windy">🌬 Windy</option>
+                <option value="cloudy">☁ Cloudy</option>
+                <option value="rainy">🌧 Rainy</option>
+                <option value="stormy">🌩 Stormy</option>
+            </select> <br><br>
+            <label for="loc">Location<sup>*</sup></label><br><br>
+            <div class="locn"><input type="text" id="loc" name="location" placeholder="Enter city Address" required></div><br><br>
+            <label>Description</label><br><br>
+            <textarea name="description"></textarea><br><br>
+            <label>
+                <input type="file" name="photo" accept="image/*" hidden>
+            📷 Add Photo (optional)
+            </label><br><br>
+            <button>Submit Report</button>
+        </form>
+</body>
+</html>"# Wt-website"
